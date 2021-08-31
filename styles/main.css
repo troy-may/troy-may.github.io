@@ -50,3 +50,15 @@ footer {
   background-color: beige;
 
 }
+.feature
+ {
+  display: flex;
+}
+
+.feature.sales {
+  background-color: aquamarine;
+}
+
+.feature.closeout {
+  background-color: red;
+}
