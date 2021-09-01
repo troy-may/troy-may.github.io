@@ -4,9 +4,9 @@ body {
 }
 
 header {
-  background: #999;
+  background: white;
   color: white;
-  padding: 15px 15px 0 15px;
+  padding: 15px 15px 15px 15px;
 }
 
 header h1 {
@@ -21,11 +21,17 @@ nav ul {
 }
 
 nav ul li {
-  background: black;
+  background:;
+  border-style: solid;
+  border-block-width: 1px;
+  border-inline-end-width: 1px;
+  border-inline-start-width: 1px;
+  border-color: black;
+  border-radius: 5px;
   color: white;
   display: inline-block; 
   list-style-type: none;
-  padding: 5px 15px;
+  padding: 5px 5px;
 }
 
 nav ul li # {
@@ -41,13 +47,15 @@ nav ul li # {
   border-radius: 5px;
   color: white;
   padding: 10px 0.5%;
-  float: left;
+  float: center;
   margin: 0.5%;
   width: 31%;
 }
 
 footer {
-  background-color: beige;
+  text-align: center;
+  background-color: #999;
+
 
 }
 .feature
@@ -56,7 +64,7 @@ footer {
 }
 
 .feature.sales {
-  background-color: aquamarine;
+  background-color:;
 }
 
 .feature.closeout {
