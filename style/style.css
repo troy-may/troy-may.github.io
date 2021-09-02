@@ -1,0 +1,26 @@
+h1, h2, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 35em;
+    margin:auto;
+}
+
+body {
+    background-color: white;
+}
+
+.navbar {
+    margin: 15px;
+
+}
+.postList-item {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    background-color:
+}
+
