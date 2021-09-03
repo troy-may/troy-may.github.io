@@ -26,13 +26,67 @@
 
 <!--content-->
 
-<h1>Born to a lost tribe</h1>
-<p class=date>Last updated: Sep, 03, 2021</p>
-<p> Content filler text...</p>
-    
-<p>"Been Down So Long"</p>
+<h2>Best Practices with ID and Class Elements</h2>
+<p class=date>Sep, 03, 2021</p>
 
-<p> </p>
+<p> If you are working with html, css and javascript you will be using the tag id and class elements often. Both of them are essential for providing ways that css and javascript can target elements in html pages.</p>
+    
+<p>Although they perform similar roles they have an important difference that you need to be aware of when using them.</p>
+    
+<h3>Barcodes and Serial numbers</h3>
+    
+<p></p>If we think of barcodes in a store that let the store know what price a given group of items cost we can compare this to the class element. It doesn’t matter that the barcode refers to 1 or 1000 of the same items. It’s a feature that you can use to alter the price of all of the items at the same time.</p>
+    
+<p><center>class=“tesla3”</center></p>
+
+<p>Now lets assume these items are all the same make and model of car and we need to track each one as it’s sold so we can provide our fabulous after sales service. In this case we want a unique serial number the id element for each individual car and we certainly do not want to reuse those serial numbers for other cars.</p>
+    
+<p><center>id=“teslarego0123”</center></p>
+    
+<p>When using class elements to label individual elements in a webpage you can happily use the same class attribute as many times as you want on the same html page.</p>
+    
+<h3>One Unique ID Per Page</h3>
+    
+<p>However when using the id element you can only use the one unique id *once* per html page.</p>
+    
+<p>Your browser will scroll through the page until it finds the first id match. If you have reused the same id further down the page it will be ignored, this is not ideal!</p>
+    
+<p>As well as breaking your css and javascript it has also been known to cause issues with usability and accessibility. Do not do this. Your html will not be valid html.</p>
+    
+<h3>Internal Navigation</h3>
+
+<p>Note how I said your browser will “scroll” down the page looking for the first match for the unique id element. You can use unique id’s for internal navigation  to link to specific sections of a page via the unique id in the URL.</p>
+    
+<p><a href="https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#the-id-attribute">https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#the-id-attribute</a></p>
+    
+<p>See the “#the-id-attribute” at the end of the URL above, this will take you too that particular part of the page.</p>
+
+<p>Also note though you cannot use the same id more than once per html page but you can use multiple unique id’s on the same page.</p>
+    
+<h3>Mix and Match</h3>
+    
+<p>You can also use a unique id element in conjunction with a class element on the same html tag.</p>
+    
+<h3>Names that Mean Something</h3>
+    
+<p>When naming your class and id elements it is best to use names that give you some idea of the function you are using them for and are recognisable.</p>
+    
+<p>Beginning names with special characters will work in most modern browsers but not in older ones so use standard letters and numbers.</p>
+    
+<p>Using camelCase isn’t advised for element naming, it doesn’t work very well in CSS.</p>
+    
+    
+<h3>To ID or to Class?</h3>
+    
+<p>When using ID and class elements for styling in general, the rule of thumb is to ask yourself: "is there more than one element which requires the same style, now or at any time in the future?", and if the answer is even "maybe", then make it a class.</p>
+    
+<h3>Less is Best</h3>
+    
+<p>Less is best when coding so the fewer things you use the less things you need to worry about.</p>
+    
+<p>Have fun.</p>
+    
+
 
 <!--footer-->
 <hr>
