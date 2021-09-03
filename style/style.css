@@ -23,6 +23,10 @@ body {
     margin: 15px;
 }
 
+.dateposted {
+    margin-top: -0.01px;
+}
+
 footer {
     text-align: center;
     background-color:
