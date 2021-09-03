@@ -29,19 +29,19 @@
 <h2>Best Practices with ID and Class Elements</h2>
 <p class=date>Sep, 03, 2021</p>
 
-<p> If you are working with html, css and javascript you will be using the tag id and class elements often. Both of them are essential for providing ways that css and javascript can target elements in html pages.</p>
+<p>When you are working with html, css and javascript you will be using the tag <strong>id</strong> and <strong>class</strong> elements often. Both of them are essential for providing ways that css and javascript can target elements in html pages.</p>
     
 <p>Although they perform similar roles they have an important difference that you need to be aware of when using them.</p>
     
 <h3>Barcodes and Serial numbers</h3>
     
 <p></p>If we think of barcodes in a store that let the store know what price a given group of items cost we can compare this to the class element. It doesn’t matter that the barcode refers to 1 or 1000 of the same items. It’s a feature that you can use to alter the price of all of the items at the same time.</p>
-    
-<p><center>class=“tesla3”</center></p>
+
+<pre><code></code><p><center>class=“tesla3”</center></p></code></pre>
 
 <p>Now lets assume these items are all the same make and model of car and we need to track each one as it’s sold so we can provide our fabulous after sales service. In this case we want a unique serial number the id element for each individual car and we certainly do not want to reuse those serial numbers for other cars.</p>
     
-<p><center>id=“teslarego0123”</center></p>
+<pre><code></code><p><center>id=“teslarego0123”</center></p></code></pre>
     
 <p>When using class elements to label individual elements in a webpage you can happily use the same class attribute as many times as you want on the same html page.</p>
     
@@ -59,14 +59,16 @@
     
 <p><a href="https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#the-id-attribute">https://www.w3.org/TR/2011/WD-html5-20110525/elements.html#the-id-attribute</a></p>
     
-<p>See the “#the-id-attribute” at the end of the URL above, this will take you too that particular part of the page.</p>
-
-<p>Also note though you cannot use the same id more than once per html page but you can use multiple unique id’s on the same page.</p>
+<p>See the <strong>“#the-id-attribute”</strong> at the end of the URL above, this will take you too that particular part of the page.</p>
     
 <h3>Mix and Match</h3>
+
+<p>Though you cannot use the same id more than once per html page, you can use multiple different id’s on the same page. Remember from above, we cannot reuse the same "serial number" in one page but we can use many different serial numbers on the same page.</p>
     
 <p>You can also use a unique id element in conjunction with a class element on the same html tag.</p>
-    
+
+<center><pre><code>&lt;div class="tesla3" id="teslarego0123"></code></pre></center>
+
 <h3>Names that Mean Something</h3>
     
 <p>When naming your class and id elements it is best to use names that give you some idea of the function you are using them for and are recognisable.</p>
