@@ -15,9 +15,12 @@ body {
     text-decoration-line: underline;
     text-decoration-style: double;
 }
+
+p {
+    text-indent: 0.5em;
+}
 .navbar {
     margin: 15px;
-
 }
 .postlist-item {
     margin: 15px;
