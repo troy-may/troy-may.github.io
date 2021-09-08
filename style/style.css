@@ -9,6 +9,7 @@ h1, h2, h3 {
 
 body {
     background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #title-01 {
@@ -32,11 +33,72 @@ p {
 
 footer {
     text-align: center;
-    background-color:
+    background-color: rgb(247, 230, 185);
 }
 
+/*idclass-tags*/
 pre {
     font-family: monospace;
     white-space: pre;
     margin: 1em 0;
   }
+/*
+/*positioning*/
+
+/*position static*/
+    div.static {
+        position: static;
+        border: 5px solid #73AD21;
+        background-color: plum;
+        }
+
+/*position relative*/
+    div.relative {
+        position: relative;
+        border: 5px solid #73AD21;
+        background-color: rgb(158, 117, 158);
+        left: 50px;
+        }   
+
+/*position fixed*/
+    div.fixed {
+        bottom: 0;
+        right: 0;
+        width: 300px;
+        height: 50px;
+        border: 5px solid #73AD21;
+        background-color: plum;
+        text-align: center;
+        position: fixed;
+        }
+
+        /*position absolute*/
+        div.relative {
+            position: relative;
+            width: 400px;
+            height: 200px;
+            border: 5px solid #73AD21;
+            } 
+
+        div.absolute {
+            position: absolute;
+            top: 80px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 5px solid #73AD21;
+            background-color: plum;
+            }
+
+        /*position sticky*/
+        div.sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            padding: 5px;
+            text-align: center;
+            width: 100%;
+            background-color: plum;
+            border: 5px solid #73AD21;
+            }
+*/
