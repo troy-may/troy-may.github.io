@@ -8,18 +8,17 @@ h1, h2, h3 {
 }
 
 body {
-    background-color: bisque;
+    background-color: #FF36AB;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFDDE1;
 }
 
 #title-01 {
+    font-size: 60px;
     text-decoration-line: underline;
     text-decoration-style: double;
 }
 
-p {
-    text-indent: 0.5em;
-}
 .navbar {
     margin: 15px;
 }
@@ -27,13 +26,21 @@ p {
     margin: 15px;
 }
 
+.postsnippet {
+    text-size-adjust: 35px;
+    text-transform: uppercase;
+    margin-bottom: -0.1px;
+}
 .dateposted {
-    margin-top: -0.01px;
+    margin: -0.1%;
+    border: none;
+    font-size: 6px;
+    font-style: italic;
 }
 
 footer {
     text-align: center;
-    background-color: rgb(247, 230, 185);
+    background-color:;
 }
 
 /*idclass-tags*/
@@ -48,15 +55,15 @@ pre {
 /*position static*/
     div.static {
         position: static;
-        border: 5px solid #73AD21;
-        background-color: plum;
+        border: 5px solid #2d00f7;
+        background-color: #ADB5BD;
         }
 
 /*position relative*/
     div.relative {
         position: relative;
-        border: 5px solid #73AD21;
-        background-color: rgb(158, 117, 158);
+        border: 5px solid #2d00f7;
+        background-color: #ADB5BD;
         left: 50px;
         }   
 
@@ -66,8 +73,8 @@ pre {
         right: 0;
         width: 300px;
         height: 50px;
-        border: 5px solid #73AD21;
-        background-color: plum;
+        border: 5px solid #2d00f7;
+        background-color: #ADB5BD;
         text-align: center;
         position: fixed;
         }
@@ -77,7 +84,7 @@ pre {
             position: relative;
             width: 400px;
             height: 200px;
-            border: 5px solid #73AD21;
+            border: 5px solid #2d00f7;
             } 
 
         div.absolute {
@@ -86,8 +93,8 @@ pre {
             right: 0;
             width: 200px;
             height: 100px;
-            border: 5px solid #73AD21;
-            background-color: plum;
+            border: 5px solid #2d00f7;
+            background-color: #CED4DA;
             }
 
         /*position sticky*/
@@ -98,7 +105,7 @@ pre {
             padding: 5px;
             text-align: center;
             width: 100%;
-            background-color: plum;
-            border: 5px solid #73AD21;
+            background-color: #ADB5BD;
+            border: 5px solid #2d00f7;
             }
 */
