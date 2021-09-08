@@ -57,6 +57,8 @@ pre {
         position: static;
         border: 5px solid #2d00f7;
         background-color: #ADB5BD;
+        color: black;
+        text-transform:uppercase;
         }
 
 /*position relative*/
@@ -64,6 +66,8 @@ pre {
         position: relative;
         border: 5px solid #2d00f7;
         background-color: #ADB5BD;
+        color: black;
+        text-transform:uppercase;
         left: 50px;
         }   
 
@@ -75,8 +79,10 @@ pre {
         height: 50px;
         border: 5px solid #2d00f7;
         background-color: #ADB5BD;
+        color: black;
         text-align: center;
         position: fixed;
+        text-transform:uppercase;
         }
 
 /*position absolute*/
@@ -103,8 +109,10 @@ pre {
         top: 0;
         padding: 5px;
         text-align: center;
-        width: 100%;
+        width: 95%;
         background-color: #ADB5BD;
         border: 5px solid #2d00f7;
+        color: black;
+        text-transform:uppercase;
         position: -webkit-sticky;
         }
