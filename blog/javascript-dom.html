@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <title>REiGE</title>
+</head>
+
+<body>
+
+    <div class="container">
+<!--navbar-->
+
+<hr>
+
+<nav class="navbar">
+    <a href="/index.html">Home</a>
+    <a href="/pages/about.html">About</a>
+    <a style="float:right;" href="https://github.com/troy-may">GitHub</a>
+</nav>
+    
+<hr>
+
+
+    <h1>Minimal <span id="title-01">Development</span></h1>
+<hr>
+
+<!--content-->
+<br>
+<h1>The DOM, JavaScript, and Friends</h1>
+<p class=dateposted>Sep, 15, 2021</p>
+<br>
+
+<h4>"Preserve substance, modify form, know the difference." - Dee Hock</h4>
+
+<h3>The Difference between HTML and CSS</h3>
+
+<p>HTML is the equivalent of your engineering friend’s steel girder construction in his backyard. He makes a solid workshop with all the basic plumbing but the positioning of the rooms and fit and finish of the cladding leave a lot to be desired. He’s a good sort so he also likes to label the different parts of his construction so we know where we are and what it’s for when we visit, he’s a bit semantic like that.</p>
+
+<p>That is until his girlfriend turns up who happens to be a very good architect she would be the CSS in this situation.</p>
+
+<p>She’s got an eye for detail and knows how to adjust the layout of the workshop to a much finer degree that our hapless engineer. She’s also a lot more efficient at decorating and not afraid of applying colours and fancy trimmings wholesale across the entire workshop in the same amount of time it takes her boyfriend to get one door painted.</p>
+
+
+<h3>Control flow and Loops</h3>
+
+<p>Control flow is the “order in which things get done” if we were baking a cake and following the recipe below the flow control would be the numbers on the left hand side, each step is followed in the numerical order written. It would be pretty hard to make our cake if we started at some random number in our ordered list.</p>
+
+<p>Loops are those things that you need to repeat until a certain criteria is met. In our recipe the indented tasks are our loops and the criteria telling us when to take a “break” and return to the flow of our recipe.</p>
+
+<strong>Control Flow (numbers 1 - 12)</strong>
+
+<ol>
+  <li>Preheat oven to 180 degrees C.</li>
+  <li>Grease and flour a 20cm round pan.</li>
+  <li>In a small bowl, whisk together flour, baking soda and salt; set aside.</li>
+  <li>In a large bowl, add butter, white sugar and brown sugar.</li>
+  <ul>Beat the ingredients, (Loop)</ul>
+  <ul>Until light and fluffy. (Break)</ul>
+  <li>Beat in eggs,</li>
+  <ul>One at a time, (Loop)</ul>
+  <ul>Until smooth. (Break)</ul>
+  <li>Mix in the bananas.</li>
+  <li>Add flour mixture,</li>
+  <ul>Alternately with the buttermilk to the creamed mixture. (Loop)</ul>
+  <ul>Until smooth each time. (Break)</ul>
+  <li>Stir in chopped walnuts.</li>
+  <li>Pour batter into the prepared pan.</li>
+  <li>Bake in the preheated oven for 30 minutes.</li>
+  <li>Remove from oven.</li>
+  <li>Place on a board to cool.</li>
+</ol>
+
+
+
+<h3>Interacting with the DOM</h3>
+
+<strong>The DOM</strong>
+<p>The DOM is very much the like the movie character it sounds like. “The Don” out of the Godfather. Quietly but forcefully letting everyone know their place, who they can talk to and what they’re allowed to say when they meet. Occasionally someone will try doing something out of line with the DOM but no one will listen to them and it takes a lot of voices to get him to change his mind.</p>
+
+<img src="/images/godfather.jpg" alt="image of hand pulling the strings from the godfather"
+width="100%">
+
+<p>Just like the mafia, the DOM isn’t something you see until you go looking for it. When you do, you'll find it it’s most often laid out in a tree like structure or multiple tree like structures. Something like you would see in a family tree with the ancestral entities of window and document sitting at the top of hierarchies like some ancient forebears.</p>
+
+<p>Hidden inside every browser are what are called “Dev Tools”, it’s though these tools you can reach behind the veil and literally connect with the DOM mafia and interact with their hidden nodes. Traversing across the cascading connections between each family branch and its descendants.</p>
+  
+<p>If you aren’t peeling off the covers with the Dev Tools you are still interacting with the DOM every time you click on a link and jump from a home page parent to it’s child page or moving from one element in a page to another. All of these behaviours are the result of the hidden actions and relationships defined by the godfather DOM underneath.</p>
+
+<h3>Accessing data from Arrays vs Objects</h3>
+
+<strong>Arrays</strong>
+<p>Arrays are like simple lists you would store in a note. Say you wrote out a shopping list and got all pedantic about using all the decimal numbers you would write you list and start at zero and then one, two, three and so on.</p>
+
+<strong>Shopping list array: </strong>
+
+<ul>
+  <li>0.Toothpaste</li>
+  <li>1.Toilet paper</li>
+  <ul>0. Blue</ul>
+  <ul>1. Tasty</ul>
+  <li>3.Bread</li>
+  <li>4.Batteries </li>
+</ul>
+
+
+<p>Say you were out and sharing the shopping duties you could simply say (to your kindly shopping assistant) hey can you check item number 4 on the shopping list please and let me know what is. You are accessing your “Array” by it’s index. If you had a fancy list you might have lists with sublists with there own index (pedantic zero based numbering and all) which you can still ask your assistant to find by asking the for list index number 2, sublist index number 2 and they could tell you its Tasty.</p>
+
+<strong>Objects </strong>
+<p>Objects are like your old address book, they can store all kinds of things about your friends including a few indexed lists (Arrays) of their kids, their home address, their work address and so on. You tend to be a bit more structured with peoples names and the information related to them as you don’t want to mix up birthdays with wedding anniversaries.</p>
+
+<strong>address-book object:</strong>
+
+<ul>
+  <li>name : Jef Raskin</li>
+  <li>kids: Timmy, Jan, Karen</li>
+  <li>bday: 12/12/72</li>
+  <li>friends: Travis, Kim</li>
+</ul>
+
+<p>So this time when you are asking your friendly assistant to help you look up some important info you might ask her to reference your address-book (the Object) and get you the name of your friends kids. To do that she simply needs to look through the names (the property) of your friend and then scan down the list of properties until she finds “kids” and from there return you their names (paired value) Timmy, Jan, Karen.</p>
+
+<h3>Functions what are they good for!</h3>
+
+<strong>Functions</strong>
+<p>Functions are the old dudes at the factory, they know how do the roles assigned to them and they happily do them over and over and they don’t mind if you yell out from the other side of the factory to lend a hand or come I on Sundays. They just perform their tasks over and over again and save you from having to find someone else and getting them to figure out how to do the same job all over again. Though sometimes you might want to review how the old guys are doing their thing.</p>
+
+
+    
+
+<br>
+<!--footer-->
+<hr>
+    <footer>
+        <p> 
+        &copy; A Rough Sight Enterprise</a>
+        </p>
+    </footer>
+<hr>
+    </div> 
+</body>
+</html>
