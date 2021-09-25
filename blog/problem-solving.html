@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="/style/style.css">
+    <title>REiGE</title>
+</head>
+
+<body>
+
+    <div class="container">
+<!--navbar-->
+
+<hr>
+
+<nav class="navbar">
+    <a href="/index.html">Home</a>
+    <a href="/pages/about.html">About</a>
+    <a style="float:right;" href="https://github.com/troy-may">GitHub</a>
+</nav>
+    
+<hr>
+
+
+    <h1>Minimal <span id="title-01">Development</span></h1>
+<hr>
+
+<!--content-->
+<br>
+<h1>Bullets of Rationality</h1>
+<p class=dateposted>Sep, 25, 2021</p>
+<br>
+
+<h4>“If you can read the writing and make known to me its interpretation, you shall be clothed with purple . . . 
+  - DANIEL 5:16”</h4>
+
+<h2>Problem Solving</h2>
+
+<h3>Come on, tell us about a time you  got blocked on a simple problem and solved it in an elegant way.</h3>
+
+  <p>
+    Well the definition of “simple” is in the eye of the beholder and since kata week has been one long litany of “simple” problems it seems that pure availability bias would have me start there.
+  </p>
+
+
+<h3>What was the problem? A secretNumber</h3>
+
+  <p>
+    Can problems be elegant? I had the diametrically opposite understanding of what “undefined” meant with regards to a variable that had been declared. But who’s value I could not find no matter how much console logging I did.
+  </p>
+
+  <p>
+    It simply kept saying “undefined” but refused to let me assign a value to it because it also said it already had a value. This completely stumped me.
+  </p>
+    
+  <p>
+    I spent hours circling rabidly around this thing. Endless queries on the internet were not offering up the answers. Mainly because I was asking the wrong questions.
+  </p>
+
+<h3>What problem solving techniques did you use?</h3>
+
+  <p>
+    I had used writing out the problem in sorta code, inanimate object discussion, discussions with animate people who knew less than the inanimate object.
+  </p>
+
+  <p>
+    I was on the inter-webs on a constant looping of searches, an admittedly feeble shout out (shout louder and clearer next time), fine reading of console log errors and the stab at it mercilessly methods.
+  </p>
+
+  <h3>The elegant solution</h3>
+
+  <p>
+    Sleeping on it and then waking with a moment of inspiration asking what else can undefined mean? a.k.a checking your assumptions.
+  </p>
+
+  <p><strong>
+    Behold!
+  </strong></p>
+  
+  <p>
+    In javascript a variable that is declared but not explicitly assigned a value will be automatically assigned the value of “undefined”.
+  </p>
+  
+  <p>
+    I was pounding away on the assumption that undefined was no value at all when in reality undefined WAS the value. Typeof to the rescue.
+  </p>
+
+<h3>How did you feel throughout the process?</h3>
+
+  <p>
+    Like being stuck in some dysfunctional co-dependent relationship. Extraordinarily frustrating but also rewarding in a messed up kind of way when the hit from the dopamine “click” kicks in.
+  </p>
+
+  <p>
+    I’m wondering if this is Pavlovian conditioning for programmers, when a problem rings its bell and the coder inside can’t help but mentally salivate until it’s been solved.
+  </p>
+
+<h3>What did you learn?</h3>
+
+  <p>
+    I have come to a kafkaesque love of tutorials that explain things you don’t know about by using references to other things you don’t know about.
+  </p>
+
+
+  <img src="/images/programmerjokes.JPG" alt="image of the hand of DOM the Godfather pulling the strings of the web"
+  width="100%">
+
+  <h1>Problem Solving for Fun and Profit</h1>
+
+    <p>
+      Life in general (and programming in the particular) are full of challenges. It is useful to have as many tools in your arsenal for dealing with these challenges as you can possibly carry. Any of the following, either individually or in combination, are highly recommended ammunition in the well prepared trouble shooters bandolier.
+    </p>
+  
+  <h3>* Patience (don’t leave home without it)</h3>
+  
+    <p>
+      Top of the list is patience, it is the super power that allows you too unlock your armoury. Cultivate this with care. Good sleep and exercise are known to aid its maintenance. Slow down I’m in a hurry, is not the contradiction it might sound.
+    </p>
+  
+  <h3>* Smash It (into smaller pieces)</h3>
+  
+    <p>
+      The divide and rule method has worked for empire builders and programmers for centuries. Take a large problem and break it down into smaller bite sized chunks you can more easily digest.
+    </p>
+  
+  <h3>* Sorta Code</h3>
+  
+    <p>
+      The fine art of writing things out in a language you can understand, using a syntax and grammar that is familiar, but stepping through things like a computer (might) in order to make your understanding of what we are doing more amenable to objective observation.
+    </p>
+
+    <p>
+      Holding onto things in the dark random access cavities of our craniums make problems much harder to manipulate with reliability.
+    </p>
+    
+    <p>
+      Write out what it is that you are trying to achieve, what methods you are using, what you expect them to do, what they actually do. Note down any variables that might be related (position of the moon, windspeed, brand of deodorant, etc).
+    </p>
+  
+  <h3>* Check your Ass-umptions</h3>
+
+    <p>
+      List out what you deem to be self evident and “obvious”, the “simple” stuff, quite often there’s an assumption in there that doesn’t add up.
+    </p>
+  
+  <h3>* Inanimate Method</h3>
+
+    <p>
+      A.k.a talking to your toys, not to be confused with yelling at the computer and flinging things around the room in disgust. Calmly describing your situation to your preferred inanimate object can achieve a certain level of objectivity and clarity around a problem in a similar way as the sorta code method. Extra points for talking things out with animate people who can give you feedback.
+    </p>
+  
+  <h3>* Stab in the Dark</h3>
+
+    <p>
+      The time honoured method of trying something. A stab in the quasi darkness at doing the thing we want to do and see if anything actually happens and lights our way forward. This should not be underrated as a technique but one should use caution when flammable liquids are involved.
+    </p>
+  
+  
+  <pre><code></code><p><strong>* TypeError: str.filter is not a function</strong></p></code></pre>
+
+    <p>
+      Reading error messages, though often distasteful and cryptic, can shed a clue as to your misfortunes and possible alternative routes to take.
+    </p>
+  
+<h3>* Read the Instructions (first)</h3>
+
+  <p>
+    Overlooked in our rush to glory is the correct and proper reading of instructions. Allocating sufficient time and care to the reading of instructions can pay off big dividends. This forgotten art is usually low down in the order of proceedings for the simple reason that we were in a hurry to get somewhere, see point one patience.
+  </p>
+  
+<h3>* Spying for Coders (console.logging)</h3>
+
+  <p>
+    Console logging is the periscope, binoculars and microscope of programming. Letting you get an eye into the murky waters of confused code and giving valuable feedback as to what various other components of code are saying behind your back. Use as often as practical.
+  </p>
+  
+<h3>* Use the InterWebs Luke</h3>
+
+  <p>
+    Google, Bing, Duck Duck Go, Baidu, Yandex, Wolfram Alpha, choose your favourite search tool and search. The internet was built by programmers and is chock full of resources specifically to help you beat your life and code back into shape. This is possibly the single most used weapon in the coders arsenal.
+  </p>
+  
+<h3>* Imitation (is the sincerest form of getting the job done)</h3>
+
+  <p>
+    If others have figured it out and have been kind enough to share their solutions do not be shy in imitation, copy and paste is your friend. See stab in the dark.
+  </p>
+  
+<h3>* Shout Out</h3>
+
+  <p>
+    If you have tried the other methods without success then there is no shame in asking your peers, your coaches or  your god(s) for help.
+  </p>
+
+  <p>
+    Try and make it clear what your problem is though, don’t make them struggle to understand what it is you are stuck on. Let them know what it is you are stuck on, what you were expecting to happen, what actually happened, what error messages you have received and what you have tried so far (see sorta code).
+  </p>
+
+<h3>* Help Others</h3>
+  
+  <p>
+    Help others so that yea may be helped in the future and learning something in the process of helping.
+  </p>
+
+  <p>
+    What goes around comes around.
+  </p>
+
+
+<h3>* Sleep On It</h3>
+
+  <p>
+    Not always the best in time constrained situations but has been known to be an elegant method of reaching solutions not available to the conscious mind.
+  </p> 
+  
+<h3>* Ponder On It</h3>
+
+  <p>
+    When you do solve a problem it never hurts to have a little thought on what it was that you did to solve the problem and what you might do differently in similar circumstances. Take notes.
+  </p>
+  
+  <h3>* Chalk It Up</h3>
+
+  <p>
+    Some things just cannot be solved, they are part of life. Have the serentity to accept them as they are, be grateful for the lessons they teach and the courage to move on from them.
+  </p>
+
+<br>
+<!--footer-->
+<hr>
+    <footer>
+        <p> 
+        &copy; A Rough Sight Enterprise</a>
+        </p>
+    </footer>
+<hr>
+    </div> 
+</body>
+</html>
