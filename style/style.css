@@ -191,6 +191,14 @@ a {
     color: #475569;
 }
 
+/* landscape orientation change background color */
+@media only screen and (orientation: landscape) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+/* change nav bar from hamburger to normal */
 @media only screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;
@@ -232,4 +240,4 @@ a {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-/*}*/
+}
