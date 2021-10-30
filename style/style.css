@@ -200,7 +200,7 @@ a {
 
 /* If the screen size is 601px or more, set the font-size of <div> to 80px */
 @media only screen and (min-width: 1200px) {
-    div.example {
+    body {
       font-size: 80px;
       background-color: rgb(182, 187, 189);
     }
@@ -208,7 +208,7 @@ a {
   
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
   @media only screen and (min-width: 768px) {
-    div.example {
+    body {
       font-size: 30px;
       background-color: rgb(4, 80, 105);
     }
