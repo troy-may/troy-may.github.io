@@ -198,8 +198,24 @@ a {
     }
   }
 
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 1200px) {
+    div.example {
+      font-size: 80px;
+      background-color: rgb(182, 187, 189);
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 768px) {
+    div.example {
+      font-size: 30px;
+      background-color: rgb(4, 80, 105);
+    }
+  }
+
 /* change nav bar from hamburger to normal */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 320px) {
     .nav-menu {
         position: fixed;
         left: -100%;
