@@ -207,7 +207,7 @@ a {
   }
   
   /* If the screen size is 600px or less, set the font-size of <div> to 30px */
-  @media only screen and (max-width: 768px) {
+  @media only screen and (min-width: 768px) {
     div.example {
       font-size: 30px;
       background-color: rgb(4, 80, 105);
